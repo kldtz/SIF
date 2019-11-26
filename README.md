@@ -1,5 +1,9 @@
 # SIF
 
+**This fork:** Fixed two bugs and made reading word embeddings from file more memory efficient (to be able to run the code on my laptop).
+
+---
+
 This is the code for [the paper](https://openreview.net/forum?id=SyK00v5xx) "A Simple but Tough-to-Beat Baseline for Sentence Embeddings".
 
 The code is written in python and requires numpy, scipy, pickle, sklearn, theano and the lasagne library. 

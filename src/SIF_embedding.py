@@ -52,6 +52,6 @@ def SIF_embedding(We, x, w, params):
     :return: emb, emb[i, :] is the embedding for sentence i
     """
     emb = get_weighted_average(We, x, w)
-    if  params.rmpc > 0:
+    if params.rmpc > 0:
         emb = remove_pc(emb, params.rmpc)
     return emb
